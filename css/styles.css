@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 3px; 
+    height: 60%;
+    width: 40%;
+}
