@@ -48,15 +48,11 @@ main {
   border-color: rgb(92.5%, 87%, 85%);
 }
 
-.content #response :focus,
-.content #response :hover {
-  background-color: transparent;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1;
-  border-bottom-style: dashed;
-  border-color: rgb(92.5%, 87%, 85%);
+input:focus,
+input:hover,
+input:visited {
+  box-shadow: 0 0 0 0;
+  outline: 0;
 }
 
 .content .btn {
@@ -64,6 +60,13 @@ main {
   border: none;
   border-bottom-style: inset;
   border-color: rgb(92.5%, 87%, 85%);
+}
+
+.content .btn:hover {
+  background-color: transparent;
+  border: none;
+  border-bottom-style: inset;
+  border-color: rgb(216, 69, 16);
 }
 
 /*
