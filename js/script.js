@@ -38,6 +38,7 @@ function gerar() {
     default:
       break;
   }
+  result.innerText = "";
   question.innerText = number1 + " " + operator + " " + number2 + " ";
 }
 

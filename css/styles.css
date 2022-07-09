@@ -23,6 +23,7 @@ header .title {
 
 main {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -37,11 +38,35 @@ main {
   text-align: center;
 }
 
-.content input {
+.content #response {
   background-color: transparent;
-  border-style: inset;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1;
+  border-bottom-style: dashed;
+  border-color: rgb(92.5%, 87%, 85%);
 }
 
+.content #response :focus,
+.content #response :hover {
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1;
+  border-bottom-style: dashed;
+  border-color: rgb(92.5%, 87%, 85%);
+}
+
+.content .btn {
+  background-color: transparent;
+  border: none;
+  border-bottom-style: inset;
+  border-color: rgb(92.5%, 87%, 85%);
+}
+
+/*
 .btn {
   width: 180px;
   height: 60px;
@@ -77,3 +102,4 @@ svg {
   font-size: 18px;
   font-weight: 100;
 }
+*/
