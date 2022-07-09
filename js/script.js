@@ -23,11 +23,17 @@ function gerar() {
       break;
 
     case "/":
+      while (number1 % number2 != 0) {
+        number2 = Math.floor(Math.random() * 100) + 1;
+      }
+
       resultValue = number1 / number2;
       break;
 
     case "^":
-      resultValue = Math.pow(number1, number2);
+      number1 = Math.floor(Math.random() * 20) + 1;
+      number2 = Math.floor(Math.random() * 10) + 1;
+      resultValue = number1 ** number2;
       break;
     default:
       break;
